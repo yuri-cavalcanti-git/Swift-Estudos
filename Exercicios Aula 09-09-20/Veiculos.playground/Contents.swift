@@ -1,6 +1,5 @@
 import UIKit
 
-import UIKit
 
 class Veiculo {
     let cor: String
@@ -27,7 +26,7 @@ class Carro: Veiculo {
     }
     
     override func calcCombustivel(distancia: Double) -> Double {
-        return Double(super.passageiros) * Double(rodaTamanho) * distancia
+        return super.calcCombustivel(distancia: distancia) * Double(rodaTamanho)
     }
 }
 
@@ -50,7 +49,7 @@ class Aviao: Veiculo {
     }
 
     override func calcCombustivel(distancia: Double) -> Double {
-        return Double(super.passageiros) * distancia
+        return super.calcCombustivel(distancia: distancia)
     }
 }
 

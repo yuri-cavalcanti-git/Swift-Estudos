@@ -3,7 +3,8 @@ import UIKit
 func minMax(array: [Int]) -> (min: Int, max: Int) {
     var currMin = array[0]
     var currMax = array[0]
-    for value in array[1..<array.count]{
+    for value in array{
+        print(value)
         if value < currMin{
             currMin = value
         }
@@ -14,4 +15,4 @@ func minMax(array: [Int]) -> (min: Int, max: Int) {
     return (currMin, currMax)
 }
 
-print(minMax(array: [1, 2, 3, 4, -6, 11]))
+print(minMax(array: [25, 1, 2, 3, 4, -6, 11]))
