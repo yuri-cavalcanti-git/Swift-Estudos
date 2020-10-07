@@ -1,13 +1,13 @@
 //
-//  Exercicio02UITests.swift
-//  Exercicio02UITests
+//  Exercicio2UITests.swift
+//  Exercicio2UITests
 //
-//  Created by Yuri Cavalcanti on 05/10/20.
+//  Created by Yuri Cavalcanti on 06/10/20.
 //
 
 import XCTest
 
-class Exercicio02UITests: XCTestCase {
+class Exercicio2UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

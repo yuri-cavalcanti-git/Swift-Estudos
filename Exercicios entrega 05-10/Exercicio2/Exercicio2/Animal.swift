@@ -1,8 +1,8 @@
 //
 //  Animal.swift
-//  Exercicio02
+//  Exercicio2
 //
-//  Created by Yuri Cavalcanti on 05/10/20.
+//  Created by Yuri Cavalcanti on 06/10/20.
 //
 
 import Foundation
