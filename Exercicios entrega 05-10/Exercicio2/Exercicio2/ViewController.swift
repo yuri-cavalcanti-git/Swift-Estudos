@@ -31,11 +31,13 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let animalViewDetail = UIStoryboard(name: "AnimalViewController", bundle: nil).instantiateInitialViewController() as? AnimalViewController {
             
+            //Aviso para a AnimalViewController qual animal exibir no Label
             animalViewDetail.animal = arrayAnimals[indexPath.row]
             present(animalViewDetail, animated: true, completion: nil)
         }
     }
     
+    //tamanho da celula
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
