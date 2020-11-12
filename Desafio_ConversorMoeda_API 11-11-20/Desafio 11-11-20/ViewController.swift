@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadAlamofire()
+        //loadAlamofire()
         
         
         //textFieldInput.delegate = self
@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func actionToConvert(_ sender: Any) {
+        loadAlamofire()
         if let currency = currency {
             let alert = openActionSheet(currency: currency)
             present(alert, animated: true, completion: nil)
